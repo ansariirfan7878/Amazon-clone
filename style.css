@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    height: 60px;
+    background-color:#0f1111 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_logo{
+    height: 50px;
+    width: 114px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 114px;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid rgb(225, 222, 217);
+    border-radius: 5px;
+}
+
+/* box two */
+.add_first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add_sec{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: px;
+}
+.add_icon{
+    display: flex;
+    align-items: center;
+}
+/* Box 3 */
+.nav_Search{
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgba(213, 213, 5, 0.934);
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 49px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.class_search{
+    width: 100%;
+    font-size: 1rem;
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+    border: none;
+}
+.search_icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #febd68;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111 ;
+}
+.nav_Search:hover{
+    border:2px solid yellow;
+}
+/* box for */
+
+span{
+    font-size: 0.7rem;
+}
+.nav_second{
+    font-size: 0.85rem;
+    font-weight: 700 ;
+}
+/* 
+box six */
+.nav_cart i{
+    font-size: 32px;
+}
+.nav_cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content:space-evenly ;
+}
+.panel_ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel_ops{
+    width: 65%;
+    font-size: 0.7rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero-section */
+.hero-section{
+    background-image: url(hero_image.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+.hero-msg{
+    background-color:white;
+    color:black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom:25px;
+}
+.hero-msg a{
+    color: #2162a1;
+}
+/* shop section */
+.shop-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    width: 23.5%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top:10px;
+}
+.box_img{
+    height: 300px;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom:1rem;
+
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right:1rem;
+}
+.box-content p{
+    color: #2162a1;
+}
+/* footer */
+.footer{
+    margin-top:15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul p{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 15px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 85px;
+}
+.pages{
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 13px;
+}
+.copyright{
+    font-size: 0.85rem;
+    text-align: center;
+}
